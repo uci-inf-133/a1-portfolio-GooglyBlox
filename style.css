@@ -32,6 +32,8 @@ body {
   position: relative;
 }
 
+/* Grid background from PatternCraft */
+/* https://patterncraft.fun */
 .grid-background {
   position: absolute;
   inset: 0;
