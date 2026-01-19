@@ -1,9 +1,9 @@
 :root {
-  --color-bg: #f9f7f4;
-  --color-text: #1a1a1a;
-  --color-text-muted: #666;
-  --color-accent: #b85c38;
-  --color-border: #e0dcd5;
+  --color-bg: #0f0f0f;
+  --color-text: #e8e6e3;
+  --color-text-muted: #888;
+  --color-accent: #d4826a;
+  --color-border: #2a2a2a;
   --font-display: 'Cormorant Garamond', Georgia, serif;
   --font-body: 'DM Sans', system-ui, sans-serif;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .grid-background {
-  position: fixed;
+  position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 0;
