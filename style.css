@@ -36,7 +36,7 @@ body {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
   background-image:
     linear-gradient(to right, var(--color-border) 1px, transparent 1px),
     linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
@@ -147,9 +147,37 @@ section {
 }
 
 .about,
-.work,
+.experience,
+.projects,
 .contact {
   border-top: 1px solid var(--color-border);
+}
+
+.entry {
+  margin-bottom: 2.5rem;
+}
+
+.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry-header {
+  margin-bottom: 0.5rem;
+}
+
+.entry h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.entry-meta {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.entry p {
+  margin-bottom: 0;
 }
 
 .links {
