@@ -128,6 +128,26 @@ EMAIL: cemy@uci.edu
       <p class="copyright">&copy; 2026 Cem Yildiz</p>
     </div>
   </footer>
+
+  <script>
+    const sections = document.querySelectorAll('.section');
+    const dots = document.querySelectorAll('.dot');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          dots.forEach(dot => {
+            dot.classList.toggle('active', dot.getAttribute('href') === `#${id}`);
+          });
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    sections.forEach(section => observer.observe(section));
+  </script>
 </body>
 
 </html>
