@@ -10,37 +10,40 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+- Appropriate headings and paragraph text (h1, h2, h3, p)
+- Links to external pages (GitHub, LinkedIn, Portfolio)
+- Semantic HTML tags (nav, main, section, article, footer)
 
 (b) CSS features
-
-
+- Padding and margins for layout and readability
+- Custom color scheme using CSS variables
+- Google Fonts (Cormorant Garamond, DM Sans) with fallbacks
 
 (c) Advanced features
-
-
-
+- Complex page layout with fixed dot navigation bar and scroll-snap sections
+- Nested CSS selectors (e.g., .entry > p:last-child, .dot.active)
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
 
+AChecker returned 0 known problems and 0 likely problems. The 27 "potential problems" are generic manual checks (e.g., "h1 may be used for formatting", "script may cause screen flicker") that flag elements for human review rather than indicating actual issues. Headings are used semantically, the script only toggles a CSS class on navigation dots without causing flicker, and all interactive elements are keyboard-accessible anchor tags.
 
+CSS validation passed with 4 warnings: two about CSS variables not being statically checked (which should be expected behavior) and two about -webkit vendor prefixes for mask-image (needed for Safari support).
 
 4. How long, in hours, did it take you to complete this assignment?
 
-
+3
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
 
@@ -49,7 +52,8 @@ PatternCraft: https://patterncraft.fun
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+None.
 
 7. Is there anything special we need to know in order to run your code?
 
+No.
