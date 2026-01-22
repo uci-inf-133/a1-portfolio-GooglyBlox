@@ -23,100 +23,94 @@ EMAIL: cemy@uci.edu
 <body>
   <div class="grid-background" aria-hidden="true"></div>
 
-  <header>
-    <nav>
-      <a href="#about" class="nav-link">About</a>
-      <a href="#experience" class="nav-link">Experience</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </nav>
-  </header>
+  <nav class="nav-dots">
+    <a href="#hero" class="dot" aria-label="Home"></a>
+    <a href="#about" class="dot" aria-label="About"></a>
+    <a href="#experience" class="dot" aria-label="Experience"></a>
+    <a href="#projects" class="dot" aria-label="Projects"></a>
+  </nav>
 
   <main>
-    <section id="hero" class="hero">
+    <section id="hero" class="section section--hero">
       <h1>Cem Yildiz</h1>
-      <p class="tagline">Informatics <span class="accent">&mdash;</span> UC Irvine</p>
+      <p class="subtitle">Informatics <span class="accent">&mdash;</span> UC Irvine</p>
     </section>
 
-    <section id="about" class="about">
-      <h2>About</h2>
-      <p>
-        I'm a junior in Informatics at UC Irvine and part of the Campuswide Honors Collegium.
-        I like building things for the web and figuring out how to make software that people actually want to use.
-      </p>
-      <p>
-        Outside of class, I spend most of my time writing code, whether it's for work, side projects, or just to learn
-        something new.
-      </p>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I'm a junior in Informatics at UC Irvine and part of the Campuswide Honors Collegium.
+          I like building things for the web and figuring out how to make software that people actually want to use.
+        </p>
+        <p>
+          Outside of class, I spend most of my time writing code, whether it's for work, side projects, or just to learn
+          something new.
+        </p>
+      </div>
     </section>
 
-    <section id="experience" class="experience">
-      <h2>Experience</h2>
+    <section id="experience" class="section">
+      <div class="container">
+        <h2>Experience</h2>
 
-      <article class="entry">
-        <div class="entry-header">
+        <article class="entry">
           <h3>Core DSP Fleet</h3>
-          <span class="entry-meta">Full-Stack Engineer &middot; Jun 2023 &ndash; Present</span>
-        </div>
-        <p>
-          A platform I helped build for Amazon delivery companies to manage their fleets.
-          Handles vehicle inspections, compliance tracking, and maintenance scheduling. PHP and MySQL on the backend,
-          React on the front.
-        </p>
-      </article>
+          <p class="meta">Full-Stack Engineer &middot; Jun 2023 &ndash; Present</p>
+          <p>
+            A platform I helped build for Amazon delivery companies to manage their fleets.
+            Handles vehicle inspections, compliance tracking, and maintenance scheduling. PHP and MySQL on the backend,
+            React on the front.
+          </p>
+        </article>
 
-      <article class="entry">
-        <div class="entry-header">
+        <article class="entry">
           <h3>Bike Legal</h3>
-          <span class="entry-meta">In-House IT Specialist &middot; Jul 2022 &ndash; May 2025</span>
-        </div>
-        <p>
-          Kept the tech running at a small law firm. Migrated them between systems,
-          handled day-to-day IT support, and made sure nothing caught fire.
-        </p>
-      </article>
+          <p class="meta">In-House IT Specialist &middot; Jul 2022 &ndash; May 2025</p>
+          <p>
+            Kept the tech running at a small law firm. Migrated them between systems,
+            handled day-to-day IT support, and made sure nothing caught fire.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <section id="projects" class="projects">
-      <h2>Projects</h2>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
 
-      <article class="entry">
-        <div class="entry-header">
+        <article class="entry">
           <h3>Pipeline Planning</h3>
-          <span class="entry-meta">Oct 2025</span>
-        </div>
-        <p>
-          A tool that helps community college students plan their transfer path. You tell it where you want to go,
-          and it maps out what classes to take and when. Built with Supabase and Stripe.
-        </p>
-      </article>
+          <p class="meta">Oct 2025</p>
+          <p>
+            A tool that helps community college students plan their transfer path. You tell it where you want to go,
+            and it maps out what classes to take and when. Built with Supabase and Stripe.
+          </p>
+        </article>
 
-      <article class="entry">
-        <div class="entry-header">
+        <article class="entry">
           <h3>Ripplet Connect</h3>
-          <span class="entry-meta">Sept 2025</span>
-        </div>
-        <p>
-          A mobile app for students to find others with similar interests. Built with React Native and Supabase
-          for real-time matching and chat.
-        </p>
-      </article>
+          <p class="meta">Sept 2025</p>
+          <p>
+            A mobile app for students to find others with similar interests. Built with React Native and Supabase
+            for real-time matching and chat.
+          </p>
+        </article>
+      </div>
     </section>
+  </main>
 
-    <section id="contact" class="contact">
-      <h2>Contact</h2>
-      <ul class="links">
+  <footer>
+    <div class="container">
+      <ul class="footer-links">
         <li><a href="assets/Cem Yildiz - Resume.pdf" download>Resume</a></li>
         <li><a href="https://github.com/GooglyBlox" target="_blank" rel="noopener noreferrer">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/cem-yildiz-b522852b4/" target="_blank"
             rel="noopener noreferrer">LinkedIn</a></li>
         <li><a href="https://www.notaspider.dev" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
       </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Cem Yildiz</p>
+      <p class="copyright">&copy; 2026 Cem Yildiz</p>
+    </div>
   </footer>
 </body>
 
